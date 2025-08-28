@@ -1,0 +1,20 @@
+:443 {
+        redir / /vnc.html?autoconnect=true&resize=remote&compression=5
+        reverse_proxy http://127.0.0.1:6080
+
+        redir /cockpit /cockpit/
+        reverse_proxy /cockpit/* https://127.0.0.1:9090 {
+                transport http {
+                        tls_insecure_skip_verify
+                }
+        }
+
+        handle /winscp/* {
+                root /var/www
+                uri strip_prefix /winscp
+                file_server browse
+        }
+
+        encode zstd gzip
+        tls /etc/caddy/cert.pem /etc/caddy/key.pem
+}
