@@ -13,7 +13,7 @@ IP=$(ip address show wlan0 | grep inet | grep -v inet6 | cut -d " " -f 6 | cut -
 
 cat > /var/www/index.html <<- EOF
 <head>
-  <meta http-equiv='refresh' content='0; URL=winscp-sftp://papaf:vPvsmb7064@$IP/home/papaf/'>
+  <meta http-equiv='refresh' content='0; URL=winscp-sftp://papaf:PASSWORD_HERE$IP/home/papaf/'>
 </head>
 EOF
 
@@ -29,7 +29,7 @@ EOF
 sendEmail \
   -f "Raspberry di Fabio <raspfabio@papaf.org>" -t papaf76@gmail.com \
   -u "Indirizzo IP Raspberry" -o message-file=/tmp/email.txt \
-  -s mail.smtp2go.com:587 -xu papaf.org -xp njkkGOWgf0flurIJ
+  -s mail.smtp2go.com:587 -xu papaf.org -xp njkkGOWgf0flurI
 
 #Google
 #  -s smtp.gmail.com:587 -xu papaf76@gmail.com -xp "rwplwrkwesuxjdro" -o tls=yes
