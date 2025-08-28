@@ -1,0 +1,14 @@
+[Unit]
+Description=VNC graphic session
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/tigervncserver -rfbport 5900 -localhost no --I-KNOW-THIS-IS-INSECURE\
+  -SecurityTypes None -fg -geometry 1920x1080 -dpi 96 \
+  -xstartup /usr/bin/mate-session
+User=papaf
+
+[Install]
+# system wide service
+WantedBy=multi-user.target
