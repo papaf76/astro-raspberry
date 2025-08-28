@@ -1,0 +1,11 @@
+[Unit]
+Description=NoVNC http VNC server
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/share/novnc/utils/launch.sh
+
+[Install]
+# system wide service
+WantedBy=multi-user.target
