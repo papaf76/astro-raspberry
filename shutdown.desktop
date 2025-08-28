@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Shutdown
+GenericName=Spegni Raspberry
+Icon=system-shutdown
+Exec=sudo poweroff
+Terminal=true
+Categories=System;Monitor;ConsoleOnly;
+Keywords=system;process;task
