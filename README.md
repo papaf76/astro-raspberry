@@ -1,5 +1,8 @@
 # Personalizzazione Raspberry per astronomia
 
+Rimuovere:
+- cloud-init
+
 Installare:
 - novnc
 - tigervnc-standalone-server
