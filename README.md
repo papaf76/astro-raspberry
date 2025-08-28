@@ -1,13 +1,13 @@
 # Personalizzazione Raspberry per astronomia
 
 Installare:
-. novnc
-. tigervnc-standalone-server
-. mate-core
-. NetworkManager
-. caddy (esterno)
-. cockpit (esterno)
-. kstars (esterno)
+- novnc
+- tigervnc-standalone-server
+- mate-core
+- NetworkManager
+- caddy (esterno)
+- cockpit (esterno)
+- kstars (esterno)
 
 ## NetworkManager
 Definire la connessione via lan come shared con indirizzo 10.0.0.1/24
