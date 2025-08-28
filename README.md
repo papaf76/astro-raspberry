@@ -16,7 +16,7 @@ Installare:
 Definire la connessione via lan come shared con indirizzo 10.0.0.1/24
 
 ## Caddy
-Copiare sia Caddy file che i due files .pem in /etc/caddy
+Copiare sia Caddyfile che i due files .pem in /etc/caddy
 
 ## Display remoto tramite VNC
 Copiare i due files .service in /etc/systemd/system
