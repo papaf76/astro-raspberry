@@ -29,7 +29,7 @@ EOF
 sendEmail \
   -f "Raspberry di Fabio <raspfabio@papaf.org>" -t papaf76@gmail.com \
   -u "Indirizzo IP Raspberry" -o message-file=/tmp/email.txt \
-  -s mail.smtp2go.com:587 -xu papaf.org -xp njkkGOWgf0flurI
+  -s mail.smtp2go.com:587 -xu papaf.org -xp njkkGOWgf0flurIJ
 
 #Google
 #  -s smtp.gmail.com:587 -xu papaf76@gmail.com -xp "rwplwrkwesuxjdro" -o tls=yes
