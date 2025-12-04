@@ -1,0 +1,11 @@
+[Unit]
+Description=noVNC Server
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/websockify --web /usr/share/webapps/novnc 6080 127.0.0.1:5901
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
