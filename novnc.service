@@ -1,11 +1,11 @@
 [Unit]
-Description=NoVNC http VNC server
-After=multi-user.target
+Description=noVNC Server
+After=network.target
 
 [Service]
-Type=simple
-ExecStart=/usr/share/novnc/utils/launch.sh
+ExecStart=/usr/bin/websockify --web /usr/share/novnc 6080 127.0.0.1:5900
+Restart=always
+RestartSec=5
 
 [Install]
-# system wide service
 WantedBy=multi-user.target
