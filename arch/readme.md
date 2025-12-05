@@ -15,6 +15,11 @@ Definire la connessione via lan come shared con indirizzo 10.0.0.1/24
 
 ## Caddy
 Copiare sia Caddyfile che i due files .pem in /etc/caddy
+Creare /var/www e assicurarsi che l'utente caddy possa accedere in rwx:
+```
+mkdir /var/www
+chown caddy /var/www
+```
 
 ## Display remoto tramite VNC
 Copiare il file .service in /etc/systemd/system
