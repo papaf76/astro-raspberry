@@ -12,6 +12,7 @@ cd ~; rm -rf yay'
 Installare:
 - openssh
 - novnc (aur via yay)
+- python-numpy
 - tigervnc
 - mate ttf-dejavu noto-fonts ttf-liberation mate-terminal
 - yaru-gtk-theme yaru-icon-theme yaru-metacity-theme (aur via yay)
@@ -34,7 +35,9 @@ chown caddy /var/www
 
 ## Display remoto tramite VNC
 Copiare il file .service in /etc/systemd/system
+
 Copiare config in ~/.config/tigervnc (da creare)
+
 Aggiungere la riga seguente a /etc/tigervnc/vncserver.users
 ```
 :0=papaf
