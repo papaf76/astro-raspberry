@@ -66,8 +66,7 @@ Copiare msmtprc in /etc
 ## Desktop
 - Rimuovere la barra sopra
 - Fare quella sotto grande (24px) e autohide
-- Impostare yaru dark red come tema
-- Disattivare screensaver ??
+- Impostare materia-dark-compact come tema
 
 ## Installazione Kstars flatpak
 Da shell come utente:
