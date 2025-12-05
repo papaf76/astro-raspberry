@@ -1,16 +1,13 @@
-# Personalizzazione Raspberry per astronomia
-
-Rimuovere:
-- cloud-init
+# Personalizzazione Raspberry per astronomia su Arch linux
 
 Installare:
-- novnc
-- tigervnc-standalone-server
-- mate-core
-- NetworkManager
-- caddy (esterno)
-- cockpit (esterno)
-- kstars (esterno)
+- novnc (aur via yay)
+- tigervnc
+- mate ttf-dejavu noto-fonts ttf-liberation mate-terminal
+- networkmanager
+- caddy
+- cockpit
+- kstars (flatpak, da grafica?)
 
 ## NetworkManager
 Definire la connessione via lan come shared con indirizzo 10.0.0.1/24
@@ -19,12 +16,12 @@ Definire la connessione via lan come shared con indirizzo 10.0.0.1/24
 Copiare sia Caddyfile che i due files .pem in /etc/caddy
 
 ## Display remoto tramite VNC
-Copiare i due files .service in /etc/systemd/system
-
-Copiare novnc_launch.sh in /usr/share/novnc/utils/launch.sh
+Copiare il file .service in /etc/systemd/system
+Copiare config in ~/.config/tigervnc (da creare)
+Aggiungere la riga seguente a /etc/tigervnc/vncserver.users
+```
+:0=papaf
+```
 
 ## Cockpit
 Copiare cockpit.conf in /etc/cockpit
-
-## Icona shutdown
-Copiare shutdown.desktop in /usr/share/applications
