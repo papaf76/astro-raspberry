@@ -74,8 +74,5 @@ Da shell come utente:
 yay -S fxload
 sudo pacman -S flatpak wget
 wget https://raw.githubusercontent.com/ikarustechnologies/indi-firmware/main/kstars.sh
-```
-Da grafica, aprire un terminale e digitare:
-```
 bash kstars.sh
 ```
