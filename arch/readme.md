@@ -19,11 +19,13 @@ Installare:
 - networkmanager
 - caddy
 - cockpit
-- sendemail (aur via yay)
+- msmtp
 - kstars (flatpak, da grafica?)
 
 ## NetworkManager
 Definire la connessione via lan come shared con indirizzo 10.0.0.1/24
+
+Copiare lo script dispatcher in /etc/NetworkManager/dispatcher.d con permessi di esecuzione
 
 ## Caddy
 Copiare sia Caddyfile che i due files .pem in /etc/caddy
@@ -50,6 +52,9 @@ systemctl enable --now vncserver@:0
 
 ## Cockpit
 Copiare cockpit.conf in /etc/cockpit
+
+## Email
+Copiare msmtprc in /etc
 
 ## Desktop
 - Rimuovere la barra sopra
