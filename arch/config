@@ -2,3 +2,4 @@ session=mate
 geometry=1600x900
 localhost
 alwaysshared
+securitytypes=none
