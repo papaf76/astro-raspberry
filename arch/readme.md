@@ -1,5 +1,13 @@
 # Personalizzazione Raspberry per astronomia su Arch linux
 
+## YAY
+```
+pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
+
 Installare:
 - openssh
 - novnc (aur via yay)
