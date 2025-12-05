@@ -12,14 +12,7 @@ cd ~; rm -rf yay'
 Installare:
 - openssh
 - novnc (aur via yay)
-- python-numpy
-- tigervnc
-- mate ttf-dejavu noto-fonts ttf-liberation mate-terminal
-- materia-gtk-theme
-- networkmanager
-- caddy
-- cockpit
-- msmtp
+- python-numpy tigervnc mate ttf-dejavu noto-fonts ttf-liberation mate-terminal materia-gtk-theme networkmanager caddy cockpit msmtp
 - kstars (flatpak, da grafica?)
 
 ## NetworkManager
