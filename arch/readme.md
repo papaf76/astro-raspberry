@@ -15,7 +15,7 @@ Installare:
 - python-numpy
 - tigervnc
 - mate ttf-dejavu noto-fonts ttf-liberation mate-terminal
-- yaru-gtk-theme yaru-icon-theme yaru-metacity-theme (aur via yay)
+- materia-gtk-theme
 - networkmanager
 - caddy
 - cockpit
@@ -44,6 +44,20 @@ Aggiungere la riga seguente a /etc/tigervnc/vncserver.users
 ```
 :0=papaf
 ```
+
+Editare l'override per il servizio vncserver per abilitare l'autorestart:
+
+systemctl edit vncserver@:0
+```
+[Service]
+Restart=always
+RestartSec=1
+
+[Unit]
+StartLimitIntervalSec=5
+StartLimitBurst=5
+```
+
 Attivare il servizio:
 ```
 systemctl enable --now novnc
