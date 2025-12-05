@@ -1,0 +1,271 @@
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAOzAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAUAAAAaAGsAcwB0AGEAcgBzAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdgBpAGUAdwBUAG8AbwBsAEIAYQByAQAAAZD/////AAAAAAAAAAAAAAAWAEkATgBEAEkAVABvAG8AbABCAGEAcgEAAAM4/////wAAAAAAAAAAAAAAIABUAGUAbABlAHMAYwBvAHAAZQBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAWAEQAbwBtAGUAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+VNC-0 Window-Maximized 1920x1080=true
+Window-Maximized 1080x1920=true
+
+[ASTAP]
+ASTAPExecutable=/usr/local/bin/astap
+
+[Align]
+AlignBinning=4x4
+AlignExposure=2
+AlignSettlingTime=4500
+AstrometryAPIURL=https://nova.papaf.org
+AstrometryImageScaleHigh=283.40785504512627
+AstrometryImageScaleLow=189.35109965897084
+AstrometryPositionDE=-7.230833333333334
+AstrometryPositionRA=76.525
+DefaultAlignCCD=ZWO CCD ASI183MM Pro
+PAHAutoPark=true
+PAHDirection=East
+PAHMountSpeed=Max
+PAHMountSpeedIndex=2
+PAHRefreshAlgorithm=Plate Solve
+SettlingTime=5000
+SolverBinningIndex=3
+
+[Analyze]
+AnalyzeAlternativeImageDirectory=/home/papaf
+AnalyzeDEC=true
+AnalyzeHFR=false
+AnalyzeRA=true
+
+[Capture]
+CaptureDirectory=/home/papaf/Pictures
+DefaultCaptureCCD=ZWO CCD ASI183MM Pro
+DefaultCaptureFilterWheel=ASI EFW
+GuidingSettle=15
+HFRDeviation=2.77
+PlaceholderFormat=/%t/%F_%D
+fileSettingsUseFilter=true
+fileSettingsUseTimestamp=true
+
+[Catalogs]
+ShowCatalogNames=_Internet_Resolved,_Manual_Additions
+
+[Colors]
+AngularRuler=#445566
+ArtificialHorizonColor=#c82828
+AsteroidColor=#f1c232
+BoxBGColor=#000000
+BoxGrabColor=#900000
+BoxTextColor=#d2dbef
+CBoundColor=#222f2f
+CBoundHighColor=#445555
+CLineColor=#3d3d3d
+CNameColor=#718488
+ColorSchemeFile=moonless-night.colors
+CompassColor=#a0a0a0
+DEGuideError=#00a5ff
+DSNameColor=#75759c
+DSOColor=#008f00
+DarkAppColors=false
+DomeColor=#445566
+EclColor=#613d12
+EqColor=#909090
+EquatorialGridColor=#445566
+FITSObjectHighlightLabelColor=#ff0000
+FITSObjectLabelColor=#00ff00
+HIPSGridColor=#ffffff
+HSTColor=#930000
+HorizontalGridColor=#091f14
+HorzColor=#091f14
+ICColor=#382a7d
+LocalMeridianColor=#113b26
+MWColor=#0d1115
+MessColor=#008f00
+NGCColor=#006666
+ObsListColor=#ff0000
+PNameColor=#ac9800
+PlanetTrailColor=#993311
+RAGuideError=#00ff00
+SNameColor=#577d7d
+SatColor=#ff0000
+SatLabelColor=#aaaa7f
+SensorFOVColor=#ffaa00
+SkyColor=#000000
+SkyColorDaytime=#7896e6
+SolverFOVColor=#ffff00
+StarColorIntensity=4
+StarColorMode=0
+StarHopRouteColor=#00ffff
+SupernovaColor=#ffa500
+TargetColor=#dd0000
+UserLabelColor=#aaaaaa
+VisibleSatColor=#00ff00
+
+[DarkLibrary]
+shutterlessCCDs=Meade Deep Sky Imager
+
+[DownloadDialog Settings]
+VNC-0 Height 1920x1080=496
+VNC-0 Width 1920x1080=700
+default Height 1920x1080=425
+default Width 1920x1080=700
+
+[Ekos]
+EkosGeometry=AdnQywADAAAAAAAAAAAAAAAABusAAAPfAAAAAAAAACIAAAbrAAAD3wAAAAAAAAAAB4AAAAAAAAAAIgAABusAAAPf
+EkosLeftIcons=true
+EkosTopIcons=false
+EkosWindowHeight=990
+EkosWindowWidth=1918
+independentWindowEkos=true
+profile=SoloCamera
+
+[FITSViewer]
+AutoWCS=false
+focusFITSOnNewImage=false
+independentWindowFITS=true
+
+[Focus]
+AbsTicksSpin=44658
+DefaultFocusFilterWheel=ASI EFW
+DefaultFocusTemperatureSource=CCD Simulator
+FocusAFOverscan=150
+FocusDetection=4
+FocusFilter=Ha
+FocusFullFieldOuterRadius=50
+FocusMaskType=1
+FocusMaxTravel=60000
+FocusMosaicTileWidth=22
+FocusSubFrame=false
+FocusTicks=10
+FocusUseFullField=true
+FocusUseWeights=false
+adaptFocusBFO=true
+focusAdaptiveMaxMove=25
+focusAdvSteps=2
+focusCFZAperture=50
+focusCFZFNumber=3.2
+focusCFZStepSize=4.3
+focusCFZWavelength=500
+
+[GUI]
+CurrentTheme=Black Body
+KStarsGeometry=AdnQywADAAAAAAAAAAAAAAAAB38AAAQbAAABvwAAAHQAAAW+AAADcwAAAAACAAAAB4AAAAAAAAAAIgAAB38AAAQb
+PositionFocusBox=1673,0
+PositionGeoBox=0,914
+RunStartupWizard=false
+WindowHeight=1018
+WindowWidth=1920
+
+[General]
+AlignmentLogging=true
+INDILogging=true
+KStarsFirstRun=false
+MountLogging=true
+RegularLogging=false
+VerboseLogging=true
+
+[Guide]
+CalibrationPulseDuration=5000
+DECProportionalGain=0.75
+DefaultGuideCCD=CCD Simulator Guider
+DefaultST4Driver=Telescope Simulator
+DitherEnabled=true
+GPGEnabled=true
+GPGEstimatePeriod=false
+GPGPeriod=600
+GuideAutoStar=true
+GuideAutoStarEnabled=true
+GuideExposure=1.5
+GuideScopeType=1
+RAProportionalGain=0.75
+RMSDisplayedOnGuideGraph=false
+SNRDisplayedOnGuideGraph=false
+
+[Location]
+CityName=Piacenza
+CountryName=Italy
+DST=EU
+Elevation=61.6300011
+Latitude=45.05222222222222
+Longitude=9.692777777777778
+TimeZone=1
+
+[MainWindow]
+1920x1080 screen: Height=768
+1920x1080 screen: Width=1024
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=0
+1920x1080 screen: YPosition=0
+:0.0 Height 1920x1080=1029
+:0.0 Width 1920x1080=1920
+:0.0 Window-Maximized 1920x1080=true
+:0.0 XPosition 1920x1080=0
+:0.0 YPosition 1920x1080=0
+HDMI-1 Height 1920x1080=1029
+HDMI-1 Width 1920x1080=1920
+HDMI-1 XPosition 1920x1080=0
+HDMI-1 YPosition 1920x1080=0
+Height 1080=1031
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAOpAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAUAAAAaAGsAcwB0AGEAcgBzAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdgBpAGUAdwBUAG8AbwBsAEIAYQByAQAAAcD/////AAAAAAAAAAAAAAAWAEkATgBEAEkAVABvAG8AbABCAGEAcgEAAAOY/////wAAAAAAAAAAAAAAIABUAGUAbABlAHMAYwBvAHAAZQBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAWAEQAbwBtAGUAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+VNC-0=VNC-0
+VNC-0 Height 1920x1080=1018
+VNC-0 Width 1920x1080=1920
+VNC-0 Window-Maximized 1920x1080=true
+VNC-0 XPosition 1920x1080=0
+VNC-0 YPosition 1920x1080=0
+Width 1920=1920
+Window-Maximized 1080x1920=true
+default Height 1920x1080=1029
+default Width 1920x1080=1920
+default XPosition 1920x1080=0
+default YPosition 1920x1080=0
+
+[Manager]
+UseGraphicalCountsDisplay=false
+
+[Mount]
+ConfirmBelowHorizon=false
+MeridianFlipOffset=0.18000000000000008
+
+[Observatory]
+DefaultObservatoryWeatherSource=LX200 OnStep
+
+[Scheduler]
+CameraHeight=3672
+CameraPixelHeight=2.4000000953674316
+CameraPixelWidth=2.4000000953674316
+CameraWidth=5496
+ResetGuideCalibration=false
+ReuseGuideCalibration=true
+ReverseDecOnPierSideChange=true
+SerializedCalibration=Cal v1.0,bx=1,by=1,pw=0.0096,ph=0.0075,fl=160,ang=354.657,angR=350.221,angD=89.093,ramspas=119.118,decmspas=234.575,swap=1,ra= 21:18:30,dec=23:27:46,side=1,when=2023-11-17 21:15:24,calEnd
+TelescopeFocalLength=160
+
+[StellarSolver]
+AstrometryIndexFolderList=/home/papaf/Documents/Astrometry
+LoggerLevel=3
+
+[TipOfDay]
+RunOnStart=false
+
+[View]
+AutoSelectGrid=false
+DeepSkyLabelDensity=42
+DeepSkyLongLabels=true
+DefaultCursor=2
+FocusDec=36.198847650093796
+FocusRA=195.90775091252445
+ShowCLines=true
+ShowCNames=true
+ShowDeepSkyNames=true
+ShowHorizontalGrid=true
+ShowLocalMeridian=true
+ShowMosaicPanel=true
+StarLabelDensity=13
+UseAnimatedSlewing=false
+UseAntialias=false
+ZoomFactor=1325.3862614022203
+
+[Xplanet]
+XplanetBackgroundColorValue=#000000
+XplanetColor=#ff0000
+
+[indi]
+INDIMountLogging=true
+INDIWindowHeight=675
+INDIWindowWidth=1030
+independentWindowINDI=true
