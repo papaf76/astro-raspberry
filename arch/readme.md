@@ -1,6 +1,7 @@
 # Personalizzazione Raspberry per astronomia su Arch linux
 
 Installare:
+- openssh
 - novnc (aur via yay)
 - tigervnc
 - mate ttf-dejavu noto-fonts ttf-liberation mate-terminal
