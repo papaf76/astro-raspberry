@@ -42,6 +42,11 @@ Aggiungere la riga seguente a /etc/tigervnc/vncserver.users
 ```
 :0=papaf
 ```
+Attivare il servizio:
+```
+systemctl enable --now novnc
+systemctl enable --now vncserver@:0
+```
 
 ## Cockpit
 Copiare cockpit.conf in /etc/cockpit
