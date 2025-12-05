@@ -18,6 +18,12 @@ cat > /var/www/index.html <<- EOF
 EOF
 
 cat > /tmp/email.txt <<- EOF
+To: papaf76@gmail.com
+From: AstroArch <astroarch@papaf.org>
+Subject: Indirizzo IP AstroArch
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
 <html>
 <h1>Indirizzo IP $HOSTNAME $IP</h1>
 <a href='https://$IP'>VNC Viewer</a><br>
@@ -26,10 +32,12 @@ cat > /tmp/email.txt <<- EOF
 </html>
 EOF
 
-sendEmail \
-  -f "Raspberry di Fabio <raspfabio@papaf.org>" -t papaf76@gmail.com \
-  -u "Indirizzo IP Raspberry" -o message-file=/tmp/email.txt \
-  -s mail.smtp2go.com:587 -xu papaf.org -xp njkkGOWgf0flurIJ
+msmtp --account smtp2go --read-recipients < /tmp/email.txt
+
+#sendEmail \
+#  -f "Raspberry di Fabio <raspfabio@papaf.org>" -t papaf76@gmail.com \
+#  -u "Indirizzo IP Raspberry" -o message-file=/tmp/email.txt \
+#  -s mail.smtp2go.com:587 -xu papaf.org -xp njkkGOWgf0flurIJ -v
   
 #Google
 #  -s smtp.gmail.com:587 -xu papaf76@gmail.com -xp "rwplwrkwesuxjdro" -o tls=yes
