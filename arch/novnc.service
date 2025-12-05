@@ -3,7 +3,7 @@ Description=noVNC Server
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/websockify --web /usr/share/webapps/novnc 6080 127.0.0.1:5901
+ExecStart=/usr/bin/websockify --web /usr/share/webapps/novnc 6080 127.0.0.1:5900
 Restart=always
 RestartSec=5
 
