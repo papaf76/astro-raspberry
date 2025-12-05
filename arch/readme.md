@@ -13,7 +13,7 @@ Installare:
 - openssh
 - novnc (aur via yay)
 - python-numpy tigervnc mate ttf-dejavu noto-fonts ttf-liberation mate-terminal materia-gtk-theme networkmanager caddy cockpit msmtp
-- kstars (flatpak, da grafica?)
+- kstars (flatpak, vedi sotto)
 
 ## NetworkManager
 Definire la connessione via lan come shared con indirizzo 10.0.0.1/24
