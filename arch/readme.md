@@ -7,6 +7,7 @@ Installare:
 - networkmanager
 - caddy
 - cockpit
+- sendemail (aur via yay)
 - kstars (flatpak, da grafica?)
 
 ## NetworkManager
