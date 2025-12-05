@@ -4,6 +4,7 @@ Installare:
 - novnc (aur via yay)
 - tigervnc
 - mate ttf-dejavu noto-fonts ttf-liberation mate-terminal
+- yaru-gtk-theme yaru-icon-theme yaru-metacity-theme (aur via yay)
 - networkmanager
 - caddy
 - cockpit
@@ -31,3 +32,9 @@ Aggiungere la riga seguente a /etc/tigervnc/vncserver.users
 
 ## Cockpit
 Copiare cockpit.conf in /etc/cockpit
+
+## Desktop
+- Rimuovere la barra sopra
+- Fare quella sotto grande (24px) e autohide
+- Impostare yaru dark red come tema
+- Disattivare screensaver ??
