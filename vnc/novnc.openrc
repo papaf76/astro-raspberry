@@ -1,0 +1,11 @@
+#!/sbin/openrc-run
+
+name=$RC_SVCNAME
+description="noVNC Server"
+supervisor="supervise-daemon"
+command="/usr/bin/websockify"
+command_args="--web /usr/share/webapps/novnc 6080 127.0.0.1:5900"
+
+depend() {
+	after net 
+}
