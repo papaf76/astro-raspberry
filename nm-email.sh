@@ -11,6 +11,8 @@ export LC_ALL=C
 export LANG=C
 IP=$(ip address show wlan0 | grep inet | grep -v inet6 | cut -d " " -f 6 | cut -d "/" -f 1)
 
+/usr/local/bin/cloudflare_update.sh $IP rasplocal.papaf.org
+
 cat > /var/www/index.html <<- EOF
 <head>
   <meta http-equiv='refresh' content='0; URL=winscp-sftp://papaf:PASSWORD_HERE$IP/home/papaf/'>
