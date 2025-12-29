@@ -16,7 +16,7 @@ Installare:
 - kstars (flatpak, vedi sotto)
 
 ## NetworkManager
-Definire la connessione via lan come shared con indirizzo 10.0.0.1/24
+Definire la connessione via lan come shared con indirizzo 10.0.0.1/24 e mettere l'opzione **dhcp-option=3** in /etc/NetworkManager/dnsmasq-shared.d/no-gateway.conf
 
 Copiare lo script dispatcher in /etc/NetworkManager/dispatcher.d con permessi di esecuzione
 
