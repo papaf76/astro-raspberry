@@ -12,7 +12,7 @@ cd ~; rm -rf yay-bin'
 Installare:
 - openssh
 - novnc (aur via yay)
-- python-numpy tigervnc mate ttf-dejavu noto-fonts ttf-liberation mate-terminal materia-gtk-theme networkmanager caddy cockpit msmtp bash-completion nano
+- python-numpy tigervnc mate ttf-dejavu noto-fonts ttf-liberation mate-terminal materia-gtk-theme networkmanager caddy cockpit msmtp bash-completion nano jq
 - kstars (flatpak, vedi sotto)
 
 ## NetworkManager
@@ -62,6 +62,7 @@ Copiare cockpit.conf in /etc/cockpit
 
 ## Email
 Copiare msmtprc in /etc
+Ricordarsi di mettere le password di smtp2go e/o di gmail apps
 
 ## Desktop
 - Rimuovere la barra sopra
